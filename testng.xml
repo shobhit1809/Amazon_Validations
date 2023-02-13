@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/CR876AU/Flight_System_Validations/src/main/java/Testcases.java">
+        <classes>
+                <class name="Testcases">
+                    <methods>
+                        <include name="Login"></include>
+                        <include name="searchItem"></include>
+                        <include name="addToCart"></include>
+                        <include name="checkOut"></include>
+                        <include name="addMultipleItemsSameProduct"></include>
+                        <include name="addMultipleItemsDifferentProduct"></include>
+                        <include name="DeleteMultipleItemsDifferentProduct"></include>
+                        <include name="deleteSingleItem"></include>
+                        <include name="editQuantityOfProduct"></include>
+                        <include name="verifyCartProductSameAsSelected"></include>
+                    </methods>
+                </class>
+        </classes>
+    </test>
+</suite>

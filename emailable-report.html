@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestSuite</th></tr>
+<tr><td><a href="#t0">C:/Users/CR876AU/Flight_System_Validations/src/main/java/Testcases.java</a></td><td class="num">10</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">102,222</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">C:/Users/CR876AU/Flight_System_Validations/src/main/java/Testcases.java &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">Testcases</td><td><a href="#m0">Login</a></td><td rowspan="1">1675152811463</td><td rowspan="1">21363</td></tr><tr><th colspan="4">C:/Users/CR876AU/Flight_System_Validations/src/main/java/Testcases.java &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">Testcases</td><td><a href="#m1">DeleteMultipleItemsDifferentProduct</a></td><td rowspan="1">1675152897903</td><td rowspan="1">1308</td></tr><tr class="passedeven"><td><a href="#m2">Login</a></td><td rowspan="1">1675152832831</td><td rowspan="1">22474</td></tr><tr class="passedeven"><td><a href="#m3">addMultipleItemsDifferentProduct</a></td><td rowspan="1">1675152883441</td><td rowspan="1">14459</td></tr><tr class="passedeven"><td><a href="#m4">addMultipleItemsSameProduct</a></td><td rowspan="1">1675152869889</td><td rowspan="1">13277</td></tr><tr class="passedeven"><td><a href="#m5">addToCart</a></td><td rowspan="1">1675152858326</td><td rowspan="1">5347</td></tr><tr class="passedeven"><td><a href="#m6">checkOut</a></td><td rowspan="1">1675152863676</td><td rowspan="1">2922</td></tr><tr class="passedeven"><td><a href="#m7">deleteSingleItem</a></td><td rowspan="1">1675152899212</td><td rowspan="1">13030</td></tr><tr class="passedeven"><td><a href="#m8">editQuantityOfProduct</a></td><td rowspan="1">1675152883168</td><td rowspan="1">271</td></tr><tr class="passedeven"><td><a href="#m9">searchItem</a></td><td rowspan="1">1675152855311</td><td rowspan="1">3013</td></tr><tr class="passedeven"><td><a href="#m10">verifyCartProductSameAsSelected</a></td><td rowspan="1">1675152866600</td><td rowspan="1">3287</td></tr></tbody>
+</table>
+<h2>C:/Users/CR876AU/Flight_System_Validations/src/main/java/Testcases.java</h2><h3 id="m0">Testcases#Login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... Login<br/>Clicking on the login element in the main page<br/>Entering the email/Mobile<br/>Clicking Continue button<br/>TestCase skipped.... Login</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa3b02cd1f91b1d028c0d15e451a118, clickElement {id=a5fc1704-e4a5-4ac7-a34b-3cb8a8f462cb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\CR876AU\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55278}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55278/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1fa3b02cd1f91b1d028c0d15e451a118)] -&gt; xpath: //input[@id=&quot;continue&quot;]]
+Session ID: 1fa3b02cd1f91b1d028c0d15e451a118
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at Testcases.Login(Testcases.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Testcases#DeleteMultipleItemsDifferentProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... DeleteMultipleItemsDifferentProduct<br/>Clicking on delete button for Lenovo 600<br/>Verifying Lenovo 600 removed from the cart<br/>Clicking on delete button for Apple iphone<br/>Verifying Apple iPhone 13 removed from cart<br/>TestCase Passed..... DeleteMultipleItemsDifferentProduct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Testcases#Login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... Login<br/>Clicking on the login element in the main page<br/>Entering the email/Mobile<br/>Clicking Continue button<br/>entering the password<br/>Clicking login button<br/>Logged in successfully and Welcome message verified<br/>TestCase Passed..... Login</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Testcases#addMultipleItemsDifferentProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... addMultipleItemsDifferentProduct<br/>Searching Lenovo 600<br/>Lenovo 600 added to the cart<br/>Verifying Apple iphone present in the cart<br/>Verifying Lenovo 600 present in the cart<br/>TestCase Passed..... addMultipleItemsDifferentProduct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Testcases#addMultipleItemsSameProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... addMultipleItemsSameProduct<br/>Apple iphone added to the cart<br/>Apple iphone added to the cart again<br/>Verifying Apple iphone quantity is greater than 1<br/>TestCase Passed..... addMultipleItemsSameProduct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Testcases#addToCart</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... addToCart<br/>Clicking on add To cart Button <br/>Verifying addToCart button displayed on screen<br/>TestCase Passed..... addToCart</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Testcases#checkOut</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... checkOut<br/>Verifying checkOut button displayed on screen<br/>Clicking on checkOut Button <br/>TestCase Passed..... checkOut</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Testcases#deleteSingleItem</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... deleteSingleItem<br/>Clicking on delete button for Apple iphone<br/>Verifying Apple iPhone 13 removed from cart<br/>TestCase Passed..... deleteSingleItem</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Testcases#editQuantityOfProduct</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... editQuantityOfProduct<br/>Quantity of Apple iphone changed<br/>Verifying Apple iphone quantity is changed to 4<br/>TestCase Passed..... editQuantityOfProduct</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Testcases#searchItem</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... searchItem<br/>Searching Apple iphone by entering text in Search box <br/>Clicking on search Icon <br/>Clicking on search Item <br/>Verifying search item displayed on screen<br/>TestCase Passed..... searchItem</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Testcases#verifyCartProductSameAsSelected</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase started.... verifyCartProductSameAsSelected<br/>Verifying cart item name same as selected<br/>TestCase Passed..... verifyCartProductSameAsSelected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
